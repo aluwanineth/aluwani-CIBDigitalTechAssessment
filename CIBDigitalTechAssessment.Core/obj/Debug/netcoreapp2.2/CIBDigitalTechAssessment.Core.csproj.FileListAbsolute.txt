@@ -1,0 +1,8 @@
+D:\ABSA\CIBDigitalTechAssessment\CIBDigitalTechAssessment.Core\bin\Debug\netcoreapp2.2\CIBDigitalTechAssessment.Core.deps.json
+D:\ABSA\CIBDigitalTechAssessment\CIBDigitalTechAssessment.Core\bin\Debug\netcoreapp2.2\CIBDigitalTechAssessment.Core.dll
+D:\ABSA\CIBDigitalTechAssessment\CIBDigitalTechAssessment.Core\obj\Debug\netcoreapp2.2\CIBDigitalTechAssessment.Core.csprojAssemblyReference.cache
+D:\ABSA\CIBDigitalTechAssessment\CIBDigitalTechAssessment.Core\obj\Debug\netcoreapp2.2\CIBDigitalTechAssessment.Core.AssemblyInfoInputs.cache
+D:\ABSA\CIBDigitalTechAssessment\CIBDigitalTechAssessment.Core\obj\Debug\netcoreapp2.2\CIBDigitalTechAssessment.Core.AssemblyInfo.cs
+D:\ABSA\CIBDigitalTechAssessment\CIBDigitalTechAssessment.Core\bin\Debug\netcoreapp2.2\CIBDigitalTechAssessment.Core.pdb
+D:\ABSA\CIBDigitalTechAssessment\CIBDigitalTechAssessment.Core\obj\Debug\netcoreapp2.2\CIBDigitalTechAssessment.Core.dll
+D:\ABSA\CIBDigitalTechAssessment\CIBDigitalTechAssessment.Core\obj\Debug\netcoreapp2.2\CIBDigitalTechAssessment.Core.pdb

@@ -1,0 +1,13 @@
+D:\ABSA\CIBDigitalTechAssessment\CIBDigitalTechAssessment.Infrastructure\bin\Debug\netcoreapp2.2\CIBDigitalTechAssessment.Infrastructure.deps.json
+D:\ABSA\CIBDigitalTechAssessment\CIBDigitalTechAssessment.Infrastructure\bin\Debug\netcoreapp2.2\CIBDigitalTechAssessment.Infrastructure.dll
+D:\ABSA\CIBDigitalTechAssessment\CIBDigitalTechAssessment.Infrastructure\obj\Debug\netcoreapp2.2\CIBDigitalTechAssessment.Infrastructure.AssemblyInfoInputs.cache
+D:\ABSA\CIBDigitalTechAssessment\CIBDigitalTechAssessment.Infrastructure\obj\Debug\netcoreapp2.2\CIBDigitalTechAssessment.Infrastructure.AssemblyInfo.cs
+D:\ABSA\CIBDigitalTechAssessment\CIBDigitalTechAssessment.Infrastructure\obj\Debug\netcoreapp2.2\CIBDigitalTechAssessment.Infrastructure.csprojAssemblyReference.cache
+D:\ABSA\CIBDigitalTechAssessment\CIBDigitalTechAssessment.Infrastructure\bin\Debug\netcoreapp2.2\CIBDigitalTechAssessment.Infrastructure.pdb
+D:\ABSA\CIBDigitalTechAssessment\CIBDigitalTechAssessment.Infrastructure\bin\Debug\netcoreapp2.2\CIBDigitalTechAssessment.Core.dll
+D:\ABSA\CIBDigitalTechAssessment\CIBDigitalTechAssessment.Infrastructure\bin\Debug\netcoreapp2.2\CIBDigitalTechAssessment.Core.pdb
+D:\ABSA\CIBDigitalTechAssessment\CIBDigitalTechAssessment.Infrastructure\obj\Debug\netcoreapp2.2\CIBDigitalTechAssessment.Infrastructure.csproj.CopyComplete
+D:\ABSA\CIBDigitalTechAssessment\CIBDigitalTechAssessment.Infrastructure\obj\Debug\netcoreapp2.2\CIBDigitalTechAssessment.Infrastructure.dll
+D:\ABSA\CIBDigitalTechAssessment\CIBDigitalTechAssessment.Infrastructure\obj\Debug\netcoreapp2.2\CIBDigitalTechAssessment.Infrastructure.pdb
+D:\ABSA\CIBDigitalTechAssessment\CIBDigitalTechAssessment.Infrastructure\bin\Debug\netcoreapp2.2\CIBDigitalTechAssessment.Infrastructure.runtimeconfig.json
+D:\ABSA\CIBDigitalTechAssessment\CIBDigitalTechAssessment.Infrastructure\bin\Debug\netcoreapp2.2\CIBDigitalTechAssessment.Infrastructure.runtimeconfig.dev.json

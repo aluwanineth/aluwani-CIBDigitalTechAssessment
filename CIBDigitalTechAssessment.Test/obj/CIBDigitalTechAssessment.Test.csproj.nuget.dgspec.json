@@ -1,0 +1,349 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\ABSA\\CIBDigitalTechAssessment\\CIBDigitalTechAssessment.Test\\CIBDigitalTechAssessment.Test.csproj": {}
+  },
+  "projects": {
+    "D:\\ABSA\\CIBDigitalTechAssessment\\CIBDigitalTechAssessment.Core\\CIBDigitalTechAssessment.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\ABSA\\CIBDigitalTechAssessment\\CIBDigitalTechAssessment.Core\\CIBDigitalTechAssessment.Core.csproj",
+        "projectName": "CIBDigitalTechAssessment.Core",
+        "projectPath": "D:\\ABSA\\CIBDigitalTechAssessment\\CIBDigitalTechAssessment.Core\\CIBDigitalTechAssessment.Core.csproj",
+        "packagesPath": "C:\\Users\\aluwa\\.nuget\\packages\\",
+        "outputPath": "D:\\ABSA\\CIBDigitalTechAssessment\\CIBDigitalTechAssessment.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\aluwa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[4.9.4, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\ABSA\\CIBDigitalTechAssessment\\CIBDigitalTechAssessment.Infrastructure\\CIBDigitalTechAssessment.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\ABSA\\CIBDigitalTechAssessment\\CIBDigitalTechAssessment.Infrastructure\\CIBDigitalTechAssessment.Infrastructure.csproj",
+        "projectName": "CIBDigitalTechAssessment.Infrastructure",
+        "projectPath": "D:\\ABSA\\CIBDigitalTechAssessment\\CIBDigitalTechAssessment.Infrastructure\\CIBDigitalTechAssessment.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\aluwa\\.nuget\\packages\\",
+        "outputPath": "D:\\ABSA\\CIBDigitalTechAssessment\\CIBDigitalTechAssessment.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\aluwa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "D:\\ABSA\\CIBDigitalTechAssessment\\CIBDigitalTechAssessment.Core\\CIBDigitalTechAssessment.Core.csproj": {
+                "projectPath": "D:\\ABSA\\CIBDigitalTechAssessment\\CIBDigitalTechAssessment.Core\\CIBDigitalTechAssessment.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.Extensions.Configuration.EnvironmentVariables": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\ABSA\\CIBDigitalTechAssessment\\CIBDigitalTechAssessment.Test\\CIBDigitalTechAssessment.Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\ABSA\\CIBDigitalTechAssessment\\CIBDigitalTechAssessment.Test\\CIBDigitalTechAssessment.Test.csproj",
+        "projectName": "CIBDigitalTechAssessment.Test",
+        "projectPath": "D:\\ABSA\\CIBDigitalTechAssessment\\CIBDigitalTechAssessment.Test\\CIBDigitalTechAssessment.Test.csproj",
+        "packagesPath": "C:\\Users\\aluwa\\.nuget\\packages\\",
+        "outputPath": "D:\\ABSA\\CIBDigitalTechAssessment\\CIBDigitalTechAssessment.Test\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\aluwa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "D:\\ABSA\\CIBDigitalTechAssessment\\CIBDigitalTechAssessment.Core\\CIBDigitalTechAssessment.Core.csproj": {
+                "projectPath": "D:\\ABSA\\CIBDigitalTechAssessment\\CIBDigitalTechAssessment.Core\\CIBDigitalTechAssessment.Core.csproj"
+              },
+              "D:\\ABSA\\CIBDigitalTechAssessment\\CIBDigitalTechAssessment.Infrastructure\\CIBDigitalTechAssessment.Infrastructure.csproj": {
+                "projectPath": "D:\\ABSA\\CIBDigitalTechAssessment\\CIBDigitalTechAssessment.Infrastructure\\CIBDigitalTechAssessment.Infrastructure.csproj"
+              },
+              "D:\\ABSA\\CIBDigitalTechAssessment\\CIBDigitalTechAssessment.WebApi\\CIBDigitalTechAssessment.WebApi.csproj": {
+                "projectPath": "D:\\ABSA\\CIBDigitalTechAssessment\\CIBDigitalTechAssessment.WebApi\\CIBDigitalTechAssessment.WebApi.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Testing": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.13.1, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\ABSA\\CIBDigitalTechAssessment\\CIBDigitalTechAssessment.WebApi\\CIBDigitalTechAssessment.WebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\ABSA\\CIBDigitalTechAssessment\\CIBDigitalTechAssessment.WebApi\\CIBDigitalTechAssessment.WebApi.csproj",
+        "projectName": "CIBDigitalTechAssessment.WebApi",
+        "projectPath": "D:\\ABSA\\CIBDigitalTechAssessment\\CIBDigitalTechAssessment.WebApi\\CIBDigitalTechAssessment.WebApi.csproj",
+        "packagesPath": "C:\\Users\\aluwa\\.nuget\\packages\\",
+        "outputPath": "D:\\ABSA\\CIBDigitalTechAssessment\\CIBDigitalTechAssessment.WebApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\aluwa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "D:\\ABSA\\CIBDigitalTechAssessment\\CIBDigitalTechAssessment.Infrastructure\\CIBDigitalTechAssessment.Infrastructure.csproj": {
+                "projectPath": "D:\\ABSA\\CIBDigitalTechAssessment\\CIBDigitalTechAssessment.Infrastructure\\CIBDigitalTechAssessment.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[8.6.0, )"
+            },
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Mvc.Versioning": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.9.5, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
