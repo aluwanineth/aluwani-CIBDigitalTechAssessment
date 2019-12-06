@@ -1,0 +1,41 @@
+<p-panel>
+    <p-header>
+        <div class="ui-helper-clearfix">
+            <span class="ui-panel-title" style="font-size:16px;display:inline-block;margin-top:2px">Phone entry</span>
+        </div>
+    </p-header>
+    <form>
+        <div class="form-row">
+            <div class="col-7">
+                <input type="text" [(ngModel)]="name" name="name" id="name" class="form-control" placeholder="Search by Name">
+            </div>
+            <div class="col">
+                <button pButton type="button " (click)="searchPhoneEntry()" icon="pi pi-search" label="Search" class="ui-button-success"></button>
+            </div>
+        </div>
+    </form>
+    <div *ngIf="show">
+        <app-entry-result-view [searchResults]="searchResults"></app-entry-result-view>
+    </div>
+    <hr>
+    <p-table [value]="entries">
+        <ng-template pTemplate="header">
+            <tr>
+                <th>Name</th>
+                <th>Phone Number</th>
+            </tr>
+        </ng-template>
+        <ng-template pTemplate="body" let-entry>
+            <tr>
+                <td>{{entry.name}}</td>
+                <td>{{entry.phoneNumber}}</td>
+            </tr>
+        </ng-template>
+    </p-table>
+    <p-footer>
+        <button pButton type="button" (click)="showErtryPhone()" icon="pi pi-plus" label="New Entry" class="ui-button-info" style="margin-right: .25em"></button>
+        <div *ngIf="show">
+            <app-entry-form [phoneBookId]=phoneBookId (hiddenForm)='hideForm($event)'></app-entry-form>
+        </div>
+    </p-footer>
+</p-panel>

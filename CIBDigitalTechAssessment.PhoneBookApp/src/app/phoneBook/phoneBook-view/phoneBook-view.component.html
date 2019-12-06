@@ -1,0 +1,15 @@
+<p-panel>
+    <p-header>
+        <div class="ui-helper-clearfix">
+            <span class="ui-panel-title" style="font-size:16px;display:inline-block;margin-top:2px">Phone Books</span>
+        </div>
+    </p-header>
+    <button pButton type="button" (click)="showAddPhoneBook()" icon="pi pi-plus" label="New Phone Book" class="ui-button-info" style="margin-right: .25em"></button>
+    <div *ngIf="show">
+        <app-phoneBook-form (hiddenForm)='hideForm($event)'></app-phoneBook-form>
+    </div>
+    <p-accordion>
+        <app-phoneBookEntry-view *ngFor="let data of phoneBooks" [data]="data"></app-phoneBookEntry-view>
+    </p-accordion>
+
+</p-panel>
