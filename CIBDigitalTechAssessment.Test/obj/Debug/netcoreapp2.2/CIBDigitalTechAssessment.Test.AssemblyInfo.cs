@@ -12,11 +12,11 @@ using System;
 using System.Reflection;
 
 [assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("CIBDigitalTechAssessment.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=n" +
-    "ull", "D:\\ABSA\\CIBDigitalTechAssessment\\CIBDigitalTechAssessment.Core", "CIBDigitalTechAssessment.Core.csproj", "0")]
+    "ull", "d:\\ABSA\\CIBDigitalTechAssessment\\CIBDigitalTechAssessment.Core", "CIBDigitalTechAssessment.Core.csproj", "0")]
 [assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("CIBDigitalTechAssessment.Infrastructure, Version=1.0.0.0, Culture=neutral, Public" +
-    "KeyToken=null", "D:\\ABSA\\CIBDigitalTechAssessment\\CIBDigitalTechAssessment.Infrastructure", "CIBDigitalTechAssessment.Infrastructure.csproj", "0")]
+    "KeyToken=null", "d:\\ABSA\\CIBDigitalTechAssessment\\CIBDigitalTechAssessment.Infrastructure", "CIBDigitalTechAssessment.Infrastructure.csproj", "0")]
 [assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("CIBDigitalTechAssessment.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken" +
-    "=null", "D:\\ABSA\\CIBDigitalTechAssessment\\CIBDigitalTechAssessment.WebApi", "CIBDigitalTechAssessment.WebApi.csproj", "0")]
+    "=null", "d:\\ABSA\\CIBDigitalTechAssessment\\CIBDigitalTechAssessment.WebApi", "CIBDigitalTechAssessment.WebApi.csproj", "0")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("CIBDigitalTechAssessment.Test")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]

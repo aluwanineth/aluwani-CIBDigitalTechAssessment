@@ -39,12 +39,24 @@ export class PhoneBookFormComponent implements OnInit {
       .createPhoneBook(postdata)
       .subscribe(resp => {
         Swal.fire({
+          title: 'Phone Book',
+          text: 'Your phonebook has been saved',
           icon: 'success',
-          title: 'Phone book Saved',
-          text: 'Phone book saved successfully!'
+          confirmButtonColor: '#3085d6',
+          confirmButtonText: 'Ok'
+        }).then((result) => {
+          if (result.value) {
+            this.hiddenForm.emit(false);
+            location.reload();
+          }
         });
-        this.hiddenForm.emit(false);
-        location.reload();
+      }, error => {
+        Swal.fire({
+          icon: 'error',
+          title: 'Server error',
+          text: 'Something went wrong!',
+          footer: 'Please contact your administrator'
+        });
       });
   }
 

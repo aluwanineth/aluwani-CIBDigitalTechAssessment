@@ -19,8 +19,7 @@ import { PhoneBookEntryComponent } from './phoneBook/phoneBookEntry-view/phoneBo
 import { PhoneBookViewComponent } from './phoneBook/phoneBook-view/phoneBook-view.component';
 import { PhoneBookService } from './phoneBook/services/phoneBook.service';
 import { EntryService } from './entry/services/entry.service';
-import { EntryResultViewComponent } from './entry/entry-form/entry-result-view/entry-result-view.component';
-
+import { EntryResultViewComponent } from './entry/entry-result-view/entry-result-view.component';
 
 @NgModule({
   declarations: [

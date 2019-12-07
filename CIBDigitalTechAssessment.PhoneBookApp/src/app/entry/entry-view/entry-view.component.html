@@ -4,18 +4,18 @@
             <span class="ui-panel-title" style="font-size:16px;display:inline-block;margin-top:2px">Phone entry</span>
         </div>
     </p-header>
-    <form>
+    <form #searchForm="ngForm" (ngSubmit)="searchPhoneEntry(searchForm)">
         <div class="form-row">
             <div class="col-7">
-                <input type="text" [(ngModel)]="name" name="name" id="name" class="form-control" placeholder="Search by Name">
+                <input type="text" [(ngModel)]="name" name="name" id="name" class="form-control" placeholder="Search by Name" required>
             </div>
             <div class="col">
-                <button pButton type="button " (click)="searchPhoneEntry()" icon="pi pi-search" label="Search" class="ui-button-success"></button>
+                <button pButton type="submit" icon="pi pi-search" label="Search" class="ui-button-success"></button>
             </div>
         </div>
     </form>
-    <div *ngIf="show">
-        <app-entry-result-view [searchResults]="searchResults"></app-entry-result-view>
+    <div *ngIf="showSearchResult">
+        <app-entry-result-view [searchResults]="searchResults" (hiddenForm)='hideSearchResult($event)'></app-entry-result-view>
     </div>
     <hr>
     <p-table [value]="entries">

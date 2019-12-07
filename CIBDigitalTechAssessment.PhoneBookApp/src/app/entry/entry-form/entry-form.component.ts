@@ -13,8 +13,6 @@ import Swal from 'sweetalert2';
 export class EntryFormComponent implements OnInit  {
   @Input() phoneBookId: number;
   @Output() public hiddenForm = new EventEmitter<boolean>();
-  spresp: any;
-  postdata: Entry;
   entryForm: FormGroup;
   submitted = false;
   constructor(private entryService: EntryService, private formBuilder: FormBuilder) { }
@@ -53,11 +51,22 @@ export class EntryFormComponent implements OnInit  {
         });
         this.hiddenForm.emit(false);
         location.reload();
+      }, error => {
+        Swal.fire({
+          icon: 'error',
+          title: 'Server error',
+          text: 'Something went wrong!',
+          footer: 'Please contact your administrator'
+        });
       });
   }
 
   resetForm(){
     this.entryForm.reset();
+    this.hiddenForm.emit(false);
+  }
+
+  closeForm(){
     this.hiddenForm.emit(false);
   }
 }

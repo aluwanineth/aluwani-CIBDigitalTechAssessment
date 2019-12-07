@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input, EventEmitter, Output } from '@angular/core';
 
 @Component({
   selector: 'app-entry-result-view',
@@ -6,6 +6,7 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./entry-result-view.component.css']
 })
 export class EntryResultViewComponent implements OnInit {
+@Output() public hiddenForm = new EventEmitter<boolean>();
 @Input() searchResults: any;
 entriesData: any = [];
 entries: any;
@@ -16,11 +17,14 @@ entries: any;
     this.entries = this.entriesData[0];
   }
 
-  getEntries(){
+  getEntries() {
     this.searchResults.phoneBooks.forEach(element => {
       this.entriesData.push(element.entry);
     });
     console.log(this.entriesData);
   }
 
+  closeForm(){
+      this.hiddenForm.emit(false);
+  }
 }
